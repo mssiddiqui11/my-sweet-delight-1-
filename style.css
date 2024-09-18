@@ -1,0 +1,230 @@
+
+/* main{
+height: 100vh;
+overflow-x: hidden;
+}
+.img
+{
+    width: 100%;
+ object-fit: cover;
+}
+/* .box1 {
+    width: 100%;
+    height: 100vh;
+object-fit: cover;
+} 
+.line1 {
+text-align: right;
+color: rgb(220, 171, 11); height: 20%;
+width: 100%; 
+font-size: 35px;
+}  */
+** {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* body, html {
+    height: 100%;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    background-image: url('backgroundimage1.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh; 
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 50px;
+}
+
+.text {
+    color: white; 
+    background: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    max-width: 400px;
+}
+
+h1 {
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+p {
+    font-size: 18px;
+}
+
+
+
+
+ */
+ body{
+    background-color: black;
+}
+.container{
+    position: relative;
+    
+    color: white;
+  }
+  .text{
+    position: absolute;
+    top: 8px;
+    left: 16px;
+    margin-top: 200px;
+    margin-left: 500px;
+    font-size: 30px
+    
+  }
+  .image{
+    width: 1650px;
+    height: 750px;
+  }
+  .text{
+    font-size: 50px;
+    color: goldenrod;
+    opacity: 80%;
+  }
+
+.box3{
+    background-color: goldenrod;
+    opacity:80%;
+    border-radius: 20px;
+    border: 4px white solid;
+}
+h1{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+#text2{
+    font-size: 15px;
+    text-align: center;
+    animation: backwards;
+}
+
+ul{
+/* padding-right: 40px; */
+justify-content: space-between;
+display: flex;
+}
+li{
+    font-size:20px;
+    list-style-type: none;
+    display: inline;
+}
+a{
+    text-decoration:none;
+    color: goldenrod;
+}
+.box2{
+    display: flex;
+}
+.container24{
+    justify-content: center;
+    margin-top: 250px;
+    border-right:10px white soild;
+
+}
+
+ #text1{
+    color: goldenrod;
+    font-size: 40px;
+    font-family: cursive;
+    
+}
+.container3{
+    display: flex;
+    margin: 20px;
+    
+}
+.container4{
+    display: flex;
+   margin: 10px;
+}
+.text5{
+    margin: 20px;
+    color: goldenrod;
+    opacity: 80%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 40px;
+    text-align:center;
+    border: 20px white;
+}
+#text51{
+    color: goldenrod;
+    opacity: 80%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    
+}
+.foot{
+    background-image: url("background2.jpg"); 
+    background-blend-mode: luminosity;
+    font-family: 30px;
+    display: flex;
+    margin: 20px;
+    padding: 20px;
+    text-decoration: goldenrod;
+    border: 4px white soild;
+    padding: 5px;
+    margin-top: 50px;
+}
+#te{
+    font-size: 20px;
+    color: goldenrod;
+}
+#fre{
+    margin: 20px;
+    align-items: center;
+}
+.back{
+    position: relative;
+  /* display:inline; */
+  color: white;
+}
+.text6{
+    color: goldenrod;
+    opacity: 80%;
+    
+}
+.caro1{
+    width: 600px;
+    height: 600px;
+    margin: 10px;
+    padding:10px;
+    border: 3px white solid;
+    overflow: hidden;
+    justify-content: space-evenly;
+}
+.caro2{
+    width: 600px;
+    height: 600px;
+    padding:10px;
+    margin-left: 80px;
+    border: 3px white solid;
+    overflow: hidden;
+}
+#cup{
+    width: 300px;
+    height: 300px;
+    margin-left: 40px;
+    border-left: 10px white soild;
+    margin-top: 100px;
+}
+#cake{
+    width: 300px;
+    height: 300px;
+    margin-left: 200px;
+    border-left: 10px white soild;
+}
+#naan{
+    width: 300px;
+    height: 300px;
+    margin-left: 40px;
+    border-left: 10px white soild;
+    margin-bottom: 100px;
+}
